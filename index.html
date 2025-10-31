@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediCare+</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!--burger-->
+
+
+  <header>
+
+    <nav class="navbar">
+      <a href="#" class="nav-branding">DEV</a>
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Médecin</a>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Rendez-vous</a>
+        </li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+
+      </div>
+    </nav>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="image/newLogo.png" alt="sante" class="logo-img" />
+        <div class="logo-text">
+          <h2>MediCare+</h2>
+          <p>Votre santé, notre priorité</p>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="medecins.html">Médecins</a>
+        <a href="rendezvous.html">Rendez-vous</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-section" id="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h3>Bienvenue sur MediCare+</h3>
+      <p>Consultez les meilleurs médecins et suivez votre bien-être au quotidien.</p>
+      <div class="search-box">
+        <input type="text" placeholder="Recherchez un médecin, une spécialité, un article ..." />
+      </div>
+      <div class="results-box"></div>
+      <div class="buttons">
+        <button class="btn-primary"> <a href="medecins.html"> Nos Médecins</button></a>
+        <button class="btn-secondary"> <a href="rendezvous.html"> Prendre rendez-vous</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- carousel conseils sante -->
+  <section class="carousel-section">
+    <h2>Conseils santé du jour</h2>
+
+    <div class="carousel">
+      <button class="prev">&#10094;</button>
+
+      <div class="carousel-content">
+        <div class="slide active">
+          <img src="https://cdn-icons-png.flaticon.com/512/2966/2966334.png" alt="Eau" />
+          <h3>Buvez 8 verres d'eau par jour</h3>
+          <p>L'hydratation est essentielle pour votre santé. Gardez votre corps hydraté pour un fonctionnement optimal.
+          </p>
+        </div>
+
+        <div class="slide">
+          <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Sommeil" />
+          <h3>Dormez 7 à 8 heures chaque nuit</h3>
+          <p>Le sommeil répare votre corps et améliore votre concentration et humeur.</p>
+        </div>
+
+        <div class="slide">
+          <img src="https://cdn-icons-png.flaticon.com/512/2966/2966340.png" alt="Sport" />
+          <h3>Faites du sport régulièrement</h3>
+          <p>30 minutes d'activité physique par jour suffisent pour rester en bonne santé.</p>
+        </div>
+      </div>
+
+      <button class="next">&#10095;</button>
+    </div>
+
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h1>MediaCare+</h1>
+        <p>Votre plateforme de consultations et de suivi médical en ligne.</p>
+      </div>
+      <div class="footer-navigation">
+        <h2>Navigation</h2>
+        <a href="index.html">Accueil </a>
+        <a href="medecins.html">Nos medecins</a>
+        <a href="rendezvous.html">prendre rendez vous</a>
+      </div>
+      <div class="footer-services">
+
+        <h2>Services</h2>
+        <p>Consultations en ligne</p>
+        <p>Suivi médical</p>
+        <p>Conseils santé</p>
+        <p>Télémédecine</p>
+      </div>
+      <div class="footer-contact">
+        <h2>Contact</h2>
+        <p>contact@medicareplus.fr</p>
+        <p>01 23 45 67 89</p>
+        <p>Du lundi au vendredi</p>
+        <p>9h - 18h</p>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© 2025 MediCare+. Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script src="js/app.js" defer></script>
+</body>
+
+</html>
